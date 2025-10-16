@@ -5,7 +5,7 @@ const CornerInfo = ({ isVisible }) => {
     <AnimatePresence>
       {isVisible && (
         <motion.div
-          className="max-w-xs text-right bg-white p-6"
+          className="max-w-xs text-right bg-white"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
