@@ -1,0 +1,74 @@
+export const booksData = [
+  {
+    id: 1,
+    title: "Código Limpo",
+    author: "Robert C. Martin",
+    cover: "https://m.media-amazon.com/images/I/71JpZHEGvWL._SL1500_.jpg",
+    review: "Para mim, este livro foi um divisor de águas. Ele me ensinou que escrever código que funciona é apenas o começo; a verdadeira arte está em criar um código que seja legível, simples e elegante. Mudou completamente a minha filosofia como desenvolvedor.",
+    rating: 5
+  },
+  {
+    id: 2,
+    title: "Duna",
+    author: "Frank Herbert",
+    cover: "https://m.media-amazon.com/images/I/81zN7udGRUL._SL1500_.jpg",
+    review: "A construção deste mundo é de outro nível. É uma mistura densa de política, religião e ecologia que me cativou do início ao fim. É o tipo de ficção científica que realmente nos faz pensar.",
+    rating: 4
+  },
+  {
+    id: 3,
+    title: "Sapiens: Uma Breve História da Humanidade",
+    author: "Yuval Noah Harari",
+    cover: "https://m.media-amazon.com/images/I/71-ghLb8qML._SL1500_.jpg",
+    review: "O que Hawking fez pelo cosmos, Harari fez pela humanidade. Este livro conectou tantos pontos para mim sobre porque a nossa sociedade é como é. É um daqueles livros que muda a forma como vemos o mundo.",
+    rating: 4.5
+  },
+  {
+    id: 4,
+    title: "O Mítico Homem-Mês",
+    author: "Frederick P. Brooks Jr.",
+    cover: "https://m.media-amazon.com/images/I/71HNGP3tJbL._SL1428_.jpg",
+    review: "É incrível como um livro de 1975 continua tão relevante. Fez-me pensar mais sobre comunicação e os problemas humanos em projetos de software do que qualquer livro técnico. Um clássico absoluto por uma razão.",
+    rating: 4.5
+  },
+  {
+    id: 5,
+    title: "Harry Potter e a Pedra Filosofal",
+    author: "J.K. Rowling",
+    cover: "https://m.media-amazon.com/images/I/81pB+joKL4L._SL1500_.jpg",
+    review: "Este foi o livro que acendeu a minha imaginação. Entrar em Hogwarts pela primeira vez junto com o Harry é uma experiência mágica que nunca esqueci. É o tipo de história que me lembra porque eu amo ler.",
+    rating: 4
+  },
+  {
+    id: 6,
+    title: "Uma Breve História do Tempo",
+    author: "Stephen Hawking",
+    cover: "https://m.media-amazon.com/images/I/61AaXcdHXKS._SL1000_.jpg",
+    review: "Este livro explodiu a minha mente. Hawking tem um talento incrível para explicar os conceitos mais complexos do universo, como buracos negros e a origem do tempo, de uma forma que eu consegui entender. É uma leitura que me fez sentir pequeno, mas incrivelmente maravilhado.",
+    rating: 3.5
+  },
+  {
+    id: 7,
+    title: "Arquitetura Limpa",
+    author: "Robert C. Martin",
+    cover: "https://m.media-amazon.com/images/I/815d9tE7jSL._SL1500_.jpg",
+    review: "Depois de ler 'Código Limpo', este foi o próximo passo lógico. Ele abriu os meus olhos para como as decisões de design que tomamos hoje impactam um projeto por anos. É o manual para construir software que dura.",
+    rating: 5
+  },
+  {
+    id: 8,
+    title: "O Senhor dos Anéis",
+    author: "J.R.R. Tolkien",
+    cover: "https://m.media-amazon.com/images/I/81hCVEC0ExL._SL1500_.jpg",
+    review: "Poucos livros me transportaram para outro mundo como este. A escala da jornada, a profundidade da mitologia de Tolkien e a amizade inabalável entre os personagens são coisas que ficam comigo para sempre. Uma obra-prima da fantasia.",
+    rating: 5
+  },
+  {
+    id: 9,
+    title: "Entendendo Algoritmos",
+    author: "Aditya Y. Bhargava",
+    cover: "https://m.media-amazon.com/images/I/71Vkg7GfPFL._SL1296_.jpg",
+    review: "Sempre achei algoritmos um tópico intimidante, mas a abordagem visual deste livro tornou tudo incrivelmente claro e acessível. Para mim, foi a melhor introdução possível a conceitos fundamentais. Recomendo a todos.",
+    rating: 4
+  }
+];

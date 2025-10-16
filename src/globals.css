@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+  overflow-x: hidden;
+  font-family: 'Merriweather', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor-none * {
+  cursor: none;
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
