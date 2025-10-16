@@ -21,10 +21,11 @@ const SplashScreen = ({ onAnimationComplete }) => {
   }, [text, onAnimationComplete]);
 
   return (
-    <div className="flex items-center justify-end min-h-screen bg-white">
-      <h1 className="flex items-center gap-x-1 text-5xl md:text-9xl font-black tracking-tight text-gray-800">
+    <div className="flex items-center justify-start min-h-screen bg-white">
+      <h1 className="flex items-center gap-x-2 text-5xl md:text-9xl font-black tracking-tight text-gray-800">
         <span>{text}</span>
-        <span className="cursor-blink">|</span>
+
+        <span className="cursor-blink inline-block w-[3px] h-[1em] bg-gray-800"></span>
       </h1>
     </div>
   );
