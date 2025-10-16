@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { booksData } from "./data/books.js";
-
+import booksData from "./data/books.json";
 import SplashScreen from "./components/SplashScreen";
 import BookCard from "./components/BookCard";
 import CornerInfo from "./components/CornerInfo";
