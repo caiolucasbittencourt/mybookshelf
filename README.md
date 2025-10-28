@@ -24,3 +24,11 @@ Projeto pessoal focado em **design minimalista (UX/UI)** e **animações fluidas
 - Tailwind CSS
 - Framer Motion
 - HTML5 & CSS3
+
+## Instalação
+
+```bash
+git clone https://github.com/caiolucasbittencourt/mybookshelf
+cd mybookshelf
+npm install
+npm run dev
